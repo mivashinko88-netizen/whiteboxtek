@@ -180,15 +180,20 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    box-shadow: var(--glow), inset 0 0 20px rgba(59, 130, 246, 0.1);
+    background: var(--bg-primary);
+    box-shadow: var(--glow);
 }
 
 .logo-icon::before {
     content: '';
     width: 16px;
     height: 16px;
-    border: 2px solid var(--accent);
-    border-radius: 3px;
+    border-radius: 4px;
+    background: linear-gradient(145deg, #ffffff 0%, #f8fafc 40%, #e2e8f0 60%, #cbd5e1 100%);
+    box-shadow:
+        0 2px 4px rgba(59, 130, 246, 0.3),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.1),
+        inset 0 2px 4px rgba(255, 255, 255, 0.9);
 }
 
 .brand-text {
