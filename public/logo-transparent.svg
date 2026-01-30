@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect x="2" y="2" width="28" height="28" rx="4" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <!-- 3D Isometric Cube -->
+  <!-- Top face -->
+  <polygon points="16,5 26,10.5 16,16 6,10.5" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Left face -->
+  <polygon points="6,10.5 16,16 16,27 6,21.5" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Right face -->
+  <polygon points="16,16 26,10.5 26,21.5 16,27" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>
